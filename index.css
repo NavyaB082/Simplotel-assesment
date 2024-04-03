@@ -1,0 +1,137 @@
+
+.header span{
+    margin-right:50px;
+    letter-spacing: 2px;
+ }
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 18, 91);
+    justify-content: center;
+}
+
+.menu {
+    width: 18px;
+    height: auto;
+    margin-right: 10px;
+}
+
+h5{
+   padding:10px ;
+   background-color: rgb(248, 18, 91);
+   margin:0;
+   width:20%;
+   font-weight: normal;
+   text-align: center;
+   font-size: medium;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(193, 248, 130),rgb(248, 18, 91));
+    padding-bottom:0;
+    border-bottom: 5px solid black;
+}
+
+.image1{
+    text-align: right;
+    width:50%   
+
+}
+.image1 img{
+    width:750px;
+    height: auto;
+}
+
+
+.info {
+    text-align: left;
+    width: 50%;
+}
+
+h1, p, h5 {
+    display: block;
+    margin: 0; 
+    margin-top: 10px;
+
+}
+h5,h1{
+    margin-left: 115px;
+}
+
+h1{
+    margin-top: 80px;
+    letter-spacing: 5px;
+}
+pre{
+    margin-top: 50px;
+}
+h5{
+    margin-top:40px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(193, 248, 130),rgb(248, 18, 91));
+    padding-bottom:0;
+   
+}
+
+.images1{
+    width:200px;
+    height:200px;
+    
+}
+.images2{
+    width:200px;
+    height:200px;
+}
+.images3{
+    width:200px;
+    height:400px;
+    margin-left:30px;
+}
+
+.images{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 320px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.twoimages,.oneimage{
+    flex: 1;
+}
+.content {
+    text-align: left; 
+}
+
+.content h1 {
+    margin-left: auto;
+}
+.content p{
+    margin-bottom: 10px;
+}
+.content h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+.content{
+    padding:10px;
+    background-color: rgb(248, 18, 91);
+    height:50%;
+    width:350px;
+    margin-right: 330px;
+    margin-top:200px;
+}
+.content img{
+    display: inline-block;
+    vertical-align:middle;
+}
